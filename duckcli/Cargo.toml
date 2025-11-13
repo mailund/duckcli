@@ -1,0 +1,12 @@
+[package]
+name = "duckcli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+clap_complete = "4.5"
+
+duckdb = { version = "1.4.1", features = ["bundled"] }
+color-eyre = "0.6"
+rustyline = "14"
